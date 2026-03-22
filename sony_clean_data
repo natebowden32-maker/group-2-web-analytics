@@ -1,0 +1,3 @@
+#This data cleaning script filters out low-quality data, eliminates duplicates, adds information on word & character count, 
+# and exports a clean, more scructured dataset that can be used for sentiment analysis
+

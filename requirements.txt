@@ -1,6 +1,5 @@
 pandas
 plotly
-genai
 streamlit
 requests
-dotenv
+python-dotenv

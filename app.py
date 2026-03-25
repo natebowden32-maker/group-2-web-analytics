@@ -50,9 +50,9 @@ st.markdown("""
 def load_data():
     # Attempt to locate the CSV either in the same dir or src/data
     possible_paths = [
-        "../src/data/sony_cleaned_data.csv",
+        "../data/sony_cleaned_data.csv",
         "../sony_cleaned_data.csv",
-        "src/data/sony_cleaned_data.csv",
+        "/data/sony_cleaned_data.csv",
         "sony_cleaned_data.csv" # If running from root
     ]
     

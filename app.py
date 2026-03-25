@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-
+import random
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
     page_title="OmniTech Executive Dashboard",
@@ -157,7 +157,7 @@ def main():
         
         feature_data = []
         for _, row in df_products.iterrows():
-            import random
+            
             random.seed(row['Reviews']) # Deterministic pseudo-random based on volume
             row_dict = {"Product": row["Name"]}
             for f in features:

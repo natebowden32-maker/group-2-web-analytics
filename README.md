@@ -24,11 +24,11 @@ The project integrates:
 group-2-web-analytics/  
 │  
 ├── src/                        # UI / dashboard scaffold  
-├── sony_scraper.ipynb          # data scraping script  
+├── updated_sony_scraper.ipynb          # data scraping script  
 ├── Data_cleaning_script.ipynb  # data cleaning process  
 ├── sentiment_analysis.ipynb    # sentiment analysis  
-├── sony_raw_data.csv           # raw scraped data  
-├── sony_cleaned_data.csv       # cleaned dataset  
+├── updated_sony_raw_data.csv           # raw scraped data  
+├── updated_sony_cleaned_data.csv       # cleaned dataset  
 ├── app.py                      # Streamlit dashboard app  
 ├── requirements.txt            # dependencies  
 └── README.md  
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ### Step 2 — Run Scraping Script
 Open and execute:  
-sony_scraper.ipynb  
+updated_sony_scraper.ipynb  
 
 This script collects product review data.
 

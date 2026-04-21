@@ -219,7 +219,7 @@ def main():
     with c2:
         st.markdown("##### Sentiment Score Distribution")
         fig_box = px.box(df_raw, x="vader_score", y="product", color="product",
-                         color_discrete_sequence=["#1f2937", "#9ca3af", "#ef4444"])
+                         color_discrete_sequence=["#1f2937", "#9ca3af", "#ef4444", "#3b82f6", "#10b981", "#8b5cf6", "#f59e0b", "#ec4899"])
         fig_box.update_layout(
             plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=0, r=0, t=10, b=0), showlegend=False,
@@ -311,12 +311,36 @@ def main():
     st.markdown("<hr style='border: none; border-top: 1px solid #e5e7eb; margin: 2rem 0;'>", unsafe_allow_html=True)
     st.markdown("### Executive Summary: Insights & Extremes")
     
-    st.markdown("""
-    **Key Insights**
-    - **Most Negative Product**: Sony PlayMemories Online
-    - **Most Positive Product**: Sony VAIO Laptops
-    - **Official vs External Sources**: Official Sony sources exhibit significantly more negative sentiment structurally.
-    """)
+    # Calculate these dynamically
+    if not df_raw.empty and 'product' in df_raw.columns and 'vader_score' in df_raw.columns:
+        prod_sentiments = df_raw.groupby('product')['vader_score'].mean().sort_values()
+        most_negative = prod_sentiments.index[0] if not prod_sentiments.empty else "N/A"
+        most_positive = prod_sentiments.index[-1] if not prod_sentiments.empty else "N/A"
+        
+        # Determine source phrasing
+        source_insight = "Official Sony sources exhibit more negative sentiment structurally."
+        if 'is_support_source' in df_raw.columns:
+            support_mean = df_raw[df_raw['is_support_source'] == True]['vader_score'].mean()
+            external_mean = df_raw[df_raw['is_support_source'] == False]['vader_score'].mean()
+            if pd.notna(support_mean) and pd.notna(external_mean):
+                if support_mean < external_mean:
+                    source_insight = "Official Sony sources exhibit significantly more negative sentiment than external sources."
+                else:
+                    source_insight = "External sources exhibit more negative sentiment structurally than official sources."
+                    
+        st.markdown(f"""
+        **Key Insights**
+        - **Most Negative Product**: {most_negative}
+        - **Most Positive Product**: {most_positive}
+        - **Official vs External Sources**: {source_insight}
+        """)
+    else:
+        st.markdown("""
+        **Key Insights**
+        - **Most Negative Product**: N/A
+        - **Most Positive Product**: N/A
+        - **Official vs External Sources**: Data unavailable.
+        """)
     
     c_neg, c_pos = st.columns(2)
     with c_neg:

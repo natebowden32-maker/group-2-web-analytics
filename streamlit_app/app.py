@@ -2,11 +2,13 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 import os
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="OmniTech Analytics",
+    page_title="Sony Product Analytics",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -80,11 +82,16 @@ st.markdown("""
 # --- DATA LOADING ---
 @st.cache_data
 def load_data():
+    try:
+        from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+    except ImportError:
+        SentimentIntensityAnalyzer = None
+        
     possible_paths = [
-        "../src/data/sony_sentiment_scored.csv",
-        "../sony_sentiment_scored.csv",
-        "src/data/sony_sentiment_scored.csv",
-        "sony_sentiment_scored.csv"
+        "../src/data/updated_sony_cleaned_data.csv",
+        "../updated_sony_cleaned_data.csv",
+        "src/data/updated_sony_cleaned_data.csv",
+        "updated_sony_cleaned_data.csv"
     ]
     
     df = None
@@ -95,6 +102,28 @@ def load_data():
             
     if df is None:
         df = pd.DataFrame(columns=['product', 'clean_text', 'vader_score'])
+    elif SentimentIntensityAnalyzer is not None:
+        vader = SentimentIntensityAnalyzer()
+        
+        def get_vader_sentiment(text):
+            try:
+                scores = vader.polarity_scores(str(text))
+                return scores['compound']
+            except:
+                return 0
+
+        def classify_sentiment(score):
+            if score >= 0.05:
+                return 'Positive'
+            elif score <= -0.05:
+                return 'Negative'
+            else:
+                return 'Neutral'
+
+        if 'vader_score' not in df.columns:
+            df['vader_score'] = df['clean_text'].apply(get_vader_sentiment)
+        if 'sentiment_category' not in df.columns:
+            df['sentiment_category'] = df['vader_score'].apply(classify_sentiment)
     
     productsList = []
     
@@ -123,8 +152,8 @@ def load_data():
 
 # --- APP LAYOUT ---
 def main():
-    st.markdown("<h1 style='margin-bottom: 0;'>Product Portfolio Analytics</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #6b7280; font-size: 1.1rem; margin-bottom: 2rem;'>Executive view of consumer sentiment and product health.</p>", unsafe_allow_html=True)
+    st.markdown("<h1 style='margin-bottom: 0;'>Sony Product Analytics Dashboard</h1>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #6b7280; font-size: 1.1rem; margin-bottom: 2rem;'>Executive view of consumer sentiment and product health across the Sony ecosystem.</p>", unsafe_allow_html=True)
     
     df_raw, df_products = load_data()
     
@@ -165,11 +194,12 @@ def main():
     st.markdown("<hr style='border: none; border-top: 1px solid #e5e7eb; margin: 2rem 0;'>", unsafe_allow_html=True)
 
     # --- Integration of Teammate's Sentiment Visualizations (Plotly versions) ---
-    c1, c2 = st.columns([6, 4])
+    st.markdown("### Executive Visualizations")
     
+    # ROW 1
+    c1, c2 = st.columns(2)
     with c1:
         st.markdown("##### Sentiment Distribution by Segment")
-        # Stacked 100% Bar Chart to replace the cluttered Box Plot
         df_dist = df_raw.groupby(['product', 'sentiment_category']).size().reset_index(name='count')
         df_dist['Percentage'] = df_dist.groupby('product')['count'].transform(lambda x: x / x.sum() * 100)
         
@@ -187,8 +217,23 @@ def main():
         st.plotly_chart(fig_bar, use_container_width=True, config={'displayModeBar': False})
 
     with c2:
+        st.markdown("##### Sentiment Score Distribution")
+        fig_box = px.box(df_raw, x="vader_score", y="product", color="product",
+                         color_discrete_sequence=["#1f2937", "#9ca3af", "#ef4444"])
+        fig_box.update_layout(
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+            margin=dict(l=0, r=0, t=10, b=0), showlegend=False,
+            xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='VADER Score'),
+            yaxis=dict(showgrid=False, title=''), height=320
+        )
+        st.plotly_chart(fig_box, use_container_width=True, config={'displayModeBar': False})
+
+    st.markdown("<br>", unsafe_allow_html=True)
+    
+    # ROW 2
+    c3, c4 = st.columns([4, 6])
+    with c3:
         st.markdown("##### Overall Sentiment Classification")
-        # Match Teammate's Pie Chart but with unified color palette
         sentiment_counts = df_raw['sentiment_category'].value_counts().reset_index()
         sentiment_counts.columns = ['Status', 'Count']
         fig_pie = px.pie(sentiment_counts, names="Status", values="Count", hole=0.45,
@@ -200,34 +245,43 @@ def main():
             plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=0, r=0, t=10, b=0),
             showlegend=True, legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="center", x=0.5),
-            height=320
+            height=300
         )
         st.plotly_chart(fig_pie, use_container_width=True, config={'displayModeBar': False})
         
-    st.markdown("<br>", unsafe_allow_html=True)
-    c3, c4 = st.columns(2)
-    
-    with c3:
+    with c4:
         st.markdown("##### Sentiment by Source Type")
-        # Match teammate's horizontal bar chart for Source
-        df_source = df_raw.groupby('is_support_source')['vader_score'].mean().reset_index()
-        df_source['Source'] = df_source['is_support_source'].map({True: 'Official PlayStation / Sony Support', False: 'External / Third-Party Platforms'})
-        
-        fig_src = px.bar(df_source, x='vader_score', y='Source', orientation='h', color='Source',
-                         color_discrete_map={'Official PlayStation / Sony Support': '#1f2937', 'External / Third-Party Platforms': '#9ca3af'})
+        if 'is_support_source' in df_raw.columns:
+            df_source = df_raw.groupby('is_support_source')['vader_score'].mean().reset_index()
+            df_source['Source'] = df_source['is_support_source'].map({True: 'Official PlayStation / Sony Support', False: 'External / Third-Party Platforms'})
+        elif 'source' in df_raw.columns:
+            df_source = df_raw.groupby('source')['vader_score'].mean().reset_index()
+            df_source['Source'] = df_source['source']
+        else:
+            df_source = pd.DataFrame({'Source': ['Unknown', 'Other'], 'vader_score': [0, 0]})
+            
+        fig_src = px.bar(df_source, x='vader_score', y='Source', orientation='h', color='vader_score', color_continuous_scale="RdGy")
         fig_src.update_layout(
             plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
             margin=dict(l=0, r=0, t=10, b=0), showlegend=False,
             xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='Avg VADER Score'),
             yaxis=dict(showgrid=False, title=''),
-            height=280
+            height=300
         )
+        fig_src.update_coloraxes(showscale=False)
         st.plotly_chart(fig_src, use_container_width=True, config={'displayModeBar': False})
-        
-    with c4:
-        st.markdown("##### Sentiment Volatility vs Text Length")
-        # Match teammate's scatter plot with unified palettes
-        fig_scat = px.scatter(df_raw, x="word_count", y="vader_score", color="sentiment_category",
+
+    st.markdown("<br>", unsafe_allow_html=True)
+    
+    # ROW 3
+    c5, c6 = st.columns(2)
+    with c5:
+        st.markdown("##### Volatility vs Text Length")
+        if 'word_count' not in df_raw.columns:
+            df_raw['word_count'] = df_raw['clean_text'].astype(str).apply(lambda x: len(x.split()))
+            
+        scatter_df = df_raw[df_raw['word_count'] < 2000]
+        fig_scat = px.scatter(scatter_df, x="word_count", y="vader_score", color="sentiment_category",
                               color_discrete_map={"Positive": "#1f2937", "Neutral": "#9ca3af", "Negative": "#ef4444"},
                               opacity=0.6)
         fig_scat.update_layout(
@@ -239,6 +293,41 @@ def main():
         )
         st.plotly_chart(fig_scat, use_container_width=True, config={'displayModeBar': False})
         
+    with c6:
+        st.markdown("##### Most Negative Entries (Bottom 8)")
+        bottom_entries = df_raw.nsmallest(8, 'vader_score').copy()
+        bottom_entries['Trunc_Text'] = bottom_entries['clean_text'].astype(str).apply(lambda x: x[:40] + '...')
+        fig_neg = px.bar(bottom_entries, x="vader_score", y="Trunc_Text", orientation='h', color='vader_score', color_continuous_scale="Reds_r")
+        fig_neg.update_layout(
+            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
+            margin=dict(l=0, r=0, t=10, b=0), showlegend=False,
+            xaxis=dict(showgrid=True, gridcolor='#f3f4f6', title='VADER Score'),
+            yaxis=dict(showgrid=False, title=''), height=280
+        )
+        fig_neg.update_coloraxes(showscale=False)
+        st.plotly_chart(fig_neg, use_container_width=True, config={'displayModeBar': False})
+        
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<hr style='border: none; border-top: 1px solid #e5e7eb; margin: 2rem 0;'>", unsafe_allow_html=True)
+    st.markdown("### Executive Summary: Insights & Extremes")
+    
+    st.markdown("""
+    **Key Insights**
+    - **Most Negative Product**: Sony PlayMemories Online
+    - **Most Positive Product**: Sony VAIO Laptops
+    - **Official vs External Sources**: Official Sony sources exhibit significantly more negative sentiment structurally.
+    """)
+    
+    c_neg, c_pos = st.columns(2)
+    with c_neg:
+        st.markdown("##### Top 5 Most Negative Entries")
+        neg_df = df_raw.nsmallest(5, 'vader_score')[['product', 'source', 'clean_text']]
+        st.dataframe(neg_df, hide_index=True, use_container_width=True)
+    with c_pos:
+        st.markdown("##### Top 5 Most Positive Entries")
+        pos_df = df_raw.nlargest(5, 'vader_score')[['product', 'source', 'clean_text']]
+        st.dataframe(pos_df, hide_index=True, use_container_width=True)
+
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("### Granular Data Matrix")
     
@@ -252,19 +341,21 @@ def main():
 
     col_nlp1, col_nlp2 = st.columns([1, 1.2])
     with col_nlp1:
-        st.markdown("##### Extracted Sentiment Themes")
-        st.markdown('''
-        <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px;">
-            <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Reliable</span>
-            <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Premium Feel</span>
-            <span style="background: #dcfce7; color: #166534; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✓ Sony Quality</span>
-            <span style="background: #fef08a; color: #854d0e; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">⚠ Pricey</span>
-            <span style="background: #fef08a; color: #854d0e; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">⚠ Average Value</span>
-            <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Hardware Glitches</span>
-            <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Poor Support</span>
-            <span style="background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-size: 0.8rem; font-weight: 500;">✖ Outdated Software</span>
-        </div>
-        ''', unsafe_allow_html=True)
+        st.markdown("##### Word Clouds by Product")
+        if not df_raw.empty and 'product' in df_raw.columns:
+            products = df_raw['product'].dropna().unique()
+            if len(products) > 0:
+                selected_prod = st.selectbox("Select Product Segment:", products)
+                text_corpus = " ".join(df_raw[df_raw['product'] == selected_prod]['clean_text'].dropna().astype(str))
+                if text_corpus.strip():
+                    wc = WordCloud(width=600, height=350, background_color='white', colormap='autumn', max_words=100).generate(text_corpus)
+                    fig_wc, ax_wc = plt.subplots(figsize=(6, 3.5))
+                    ax_wc.imshow(wc, interpolation='bilinear')
+                    ax_wc.axis('off')
+                    fig_wc.patch.set_facecolor('white')
+                    st.pyplot(fig_wc, use_container_width=True)
+                else:
+                    st.info("No text available for this product.")
         
     with col_nlp2:
         st.markdown("##### Recent Critical Verbatims")

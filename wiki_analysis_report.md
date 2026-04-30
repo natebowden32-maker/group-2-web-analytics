@@ -1,41 +1,67 @@
-# Sony Product Portfolio: Sentiment Analysis Report
+# Google Discontinued Products: Sentiment Analysis Report
 
-## 1. Executive Summary
-This report analyzes consumer sentiment across various Sony sub-brands and segment products (e.g., *Sony VAIO Laptops*, *PlayStation Vue*, and *PlayMemories Online*). By utilizing VADER (Valence Aware Dictionary and sEntiment Reasoner) for automated text processing, we evaluated consumer verbatims, identified overarching vocabulary patterns, and mapped out extreme outliers to better understand product health.
+## 1. Overview
 
----
+This report analyzes how public sentiment toward three discontinued Google products changed over time, using YouTube comment data scraped before and after each product's shutdown. The three products are **Google Stadia**, **Google Glass**, and **Google+**.
 
-## 2. Statistical Analysis
-We extracted and normalized the corpus text to ensure statistically robust scoring. The statistical foundations of the dashboard yield the following structural insights:
-
-- **Global Polarity Normalization**: Consumer data was scored on a continuous scale of `-1.0` (Highly Negative) to `+1.0` (Highly Positive) and segmented into discrete categorical buckets (Negative, Neutral, Positive).
-- **Volume & Average Distribution**: From the aggregated dataset, the median sentiment skews neutral-to-negative for software services, but remains relatively robust for legacy hardware limits.
-- **Target Extraction**: We algorithmically identified that *Sony PlayMemories Online* possessed the tightest cluster of low-performing sentiment nodes, mathematically marking it as a "Critical Remediation Target" compared to the high baseline of *Sony VAIO*.
+The core research question: *Did consumer sentiment shift significantly after Google announced the discontinuation of these products?*
 
 ---
 
-## 3. Text Analysis (NLP & Verbatims)
-Applying Natural Language Processing (NLP), we extracted the thematic essence from consumer text data:
-- **Keyword Processing (Word Clouds)**: By removing standard stop-words and visualizing frequencies per product segment, we isolated the underlying drivers of sentiment.
-- **Qualitative Verbatims (Extremes)**: The VADER algorithm confidently pinpointed the absolute highest and lowest performing raw reviews. 
-    - *Negative Correlates*: Phrases and structural language focused on "software glitches", "discontinuation", and "poor tech support" heavily penalize the VADER score.
-    - *Positive Correlates*: "Build quality", "longevity", and "classic design" routinely buoy average response ratings.
+## 2. Data
+
+YouTube comments were scraped for each product across two time windows — before discontinuation and after. After cleaning (removing duplicates, stripping URLs, filtering comments under 4 words), we ended up with approximately **3,248 usable comments** across all three products.
+
+| Product | Before | After |
+|---------|--------|-------|
+| Google Stadia | 594 | 609 |
+| Google Glass | 684 | 285 |
+| Google+ | 669 | 407 |
 
 ---
 
-## 4. Graph Data Analysis
-Visual analytics were applied to uncover hidden dimensions within the multi-variate dataset. Key graphical findings include:
+## 3. Sentiment Scoring
 
-1. **Volatility vs Text Length (Scatter Analysis)**
-   When mapping Review Word Count against the final VADER Score, a clear funnel emerges. Data visualizations reveal that extreme emotional polarity (both highly negative and highly positive) is heavily clustered under **500 words**, indicating that extreme consumer passion translates to brief, highly concentrated bursts of text.
+Instead of VADER, we used **TextBlob** polarity scoring, which returns a continuous value between -1 (very negative) and +1 (very positive). Comments were labeled as:
 
-2. **Sentiment by Source Type (Bar Distribution)**
-   Our visual model splits feedback by internal vs. external origination. The graph clearly dictates that **Official PlayStation / Sony Support platforms** manifest a significantly lower average sentiment score compared to external/third-party platforms (like Wikipedia/TechRadar). This analytically implies that consumers predominantly use internal channels solely for complaint escalation rather than general commentary.
-
-3. **Product-Level Breakdown (Box Plots & Grouped Distributions)**
-   The box plots dynamically map the variance of sentiment. The interquartile range (IQR) for *Sony VAIO* stretches deeply into the Positive quadrant compared to *PlayMemories* which suffers notable compression into the Negative domain, proving hardware longevity yields better historical sentiment than discontinued web services.
+- **Positive**: polarity > 0.05
+- **Neutral**: -0.05 to 0.05
+- **Negative**: polarity < -0.05
 
 ---
 
-### Additional Deliverable:
-Alongside this report, we have shipped a lightweight, real-time **Streamlit Data Dashboard** mapping these identical figures interactively for stakeholders.
+## 4. Statistical Analysis
+
+We ran independent samples t-tests comparing mean polarity before vs. after discontinuation for each product.
+
+| Product | Before Mean | After Mean | t-stat | p-value | Significant? |
+|---------|------------|-----------|--------|---------|--------------|
+| Stadia | 0.099 | 0.086 | 0.789 | 0.430 | No |
+| Google Glass | 0.138 | 0.089 | 2.426 | 0.016 | Yes |
+| Google+ | 0.119 | 0.072 | 2.404 | 0.016 | Yes |
+
+**Google Glass** and **Google+** both show a statistically significant drop in sentiment after discontinuation (p < 0.05). **Stadia** does not show a significant change, which may be because Google offered full refunds to Stadia users, softening the negative reaction.
+
+---
+
+## 5. Text Analysis
+
+Looking at the most common words in comments after discontinuation across all three products, themes around "too early," "ahead of its time," and "disappointed" appear frequently — especially for Google Glass. For Google+, many comments reference nostalgia and frustration over being forced to migrate to other platforms.
+
+For Stadia, post-discontinuation comments are more mixed — some users expressed relief (they had already moved to other platforms), while others noted the wasted potential of the hardware.
+
+---
+
+## 6. Key Findings
+
+- Consumer sentiment dropped significantly after the discontinuation of Google Glass and Google+ but not Stadia
+- Google Glass comments show the highest average polarity before discontinuation, suggesting it had a more positive legacy reputation — which then dropped noticeably after shutdown
+- Stadia's sentiment was already lower before discontinuation, possibly reflecting ongoing frustrations with the product during its lifetime
+- Across all three products, sentiment stayed mostly in the neutral-to-slightly-positive range, with Google Glass showing the widest variance
+
+---
+
+## 7. Dashboard
+
+A Streamlit dashboard (`app.py`) provides an interactive view of these findings, including sentiment breakdowns by product and time period, polarity distributions, and the t-test results.
+

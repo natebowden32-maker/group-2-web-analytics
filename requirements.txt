@@ -12,3 +12,8 @@ google-api-python-client>=2.120.0
 nltk>=3.8.1
 scikit-learn>=1.4.0
 numpy>=1.26.0
+langextract
+textblob
+networkx
+scipy
+matplotlib

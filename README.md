@@ -152,7 +152,8 @@ This performs statistical comparison of sentiment distributions across the three
 ---
 ### Step 5 — TF-IDF Keyword Analysis
 
-Open and execute:tfidf_analysis.ipynb
+Open and execute:
+tfidf_analysis.ipynb
 This generates:
 - top distinctive keywords per product per time period
 - before vs. after keyword comparison
@@ -163,7 +164,8 @@ This generates:
 
 ### Step 6 — Keyword Co-occurrence Network (Gephi)
 
-Open and execute:gephi_network_export.ipynb
+Open and execute:
+gephi_network_export.ipynb
 This generates:
 - keyword co-occurrence network for each product
 - node file (`gephi_nodes.csv`) and edge file (`gephi_edges.csv`) for Gephi import

@@ -22,6 +22,8 @@ The project integrates:
 - data cleaning
 - sentiment analysis (general + aspect-based)
 - statistical analysis
+- TF-IDF keyword analysis
+- keyword co-occurrence network analysis
 - dashboard visualization
 
 ---
@@ -37,6 +39,8 @@ group-2-web-analytics/
 ├── statistical_analysis.ipynb                    # Statistical analysis of sentiment outputs
 ├── Data_cleaning_script.ipynb                    # Data cleaning (Sony legacy)
 ├── data_cleaning_glass_plus.ipynb                # Data cleaning for Glass and Google+ datasets
+├── tfidf_analysis.ipynb                          # TF-IDF keyword analysis
+├── gephi_network_export.ipynb                    # Keyword co-occurrence network analysis
 ├── old_google_glass_youtube_comments_raw.csv     # Raw older Glass comments
 ├── recent_google_glass_youtube_comments_raw.csv  # Raw recent Glass comments
 ├── old_plus_youtube_comments_raw.csv             # Raw older Google+ comments
@@ -48,8 +52,6 @@ group-2-web-analytics/
 ├── absa_extractions.json                         # ABSA structured output (JSON)
 ├── absa_aspect_sentiment.png                     # ABSA visualization
 ├── absa_before_after.png                         # Pre/post sentiment comparison
-├── tfidf_analysis.ipynb                          # TF-IDF keyword analysis
-├── gephi_network_export.ipynb                    # Keyword co-occurrence network analysis
 ├── tfidf_keywords.csv                            # TF-IDF top keywords per product per period
 ├── tfidf_keywords.png                            # TF-IDF keyword visualization
 ├── gephi_nodes.csv                               # Network nodes (keywords + frequency)
@@ -150,10 +152,15 @@ statistical_analysis.ipynb
 This performs statistical comparison of sentiment distributions across the three products.
 
 ---
+
 ### Step 5 — TF-IDF Keyword Analysis
 
 Open and execute:
+
+```
 tfidf_analysis.ipynb
+```
+
 This generates:
 - top distinctive keywords per product per time period
 - before vs. after keyword comparison
@@ -165,13 +172,18 @@ This generates:
 ### Step 6 — Keyword Co-occurrence Network (Gephi)
 
 Open and execute:
+
+```
 gephi_network_export.ipynb
+```
+
 This generates:
 - keyword co-occurrence network for each product
 - node file (`gephi_nodes.csv`) and edge file (`gephi_edges.csv`) for Gephi import
 - NetworkX network preview with degree and betweenness centrality measures
 
 ---
+
 ### Step 7 — Run Dashboard
 
 ```bash
@@ -187,7 +199,8 @@ streamlit run app.py
 - Product comparison based on aggregate sentiment scores
 - Aspect-based sentiment extraction (ABSA) using Gemini
 - Statistical analysis of sentiment distributions
-- Consumer language and keyword analysis
+- Consumer language and keyword analysis (TF-IDF)
+- Keyword co-occurrence network analysis (Gephi / NetworkX)
 - Backlash risk interpretation
 - Executive decision-support interface
 

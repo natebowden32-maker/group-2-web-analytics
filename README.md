@@ -48,7 +48,13 @@ group-2-web-analytics/
 ├── absa_extractions.json                         # ABSA structured output (JSON)
 ├── absa_aspect_sentiment.png                     # ABSA visualization
 ├── absa_before_after.png                         # Pre/post sentiment comparison
-├── wiki_analysis_report.md                       # Wikipedia-based product background report
+├── tfidf_analysis.ipynb                          # TF-IDF keyword analysis
+├── gephi_network_export.ipynb                    # Keyword co-occurrence network analysis
+├── tfidf_keywords.csv                            # TF-IDF top keywords per product per period
+├── tfidf_keywords.png                            # TF-IDF keyword visualization
+├── gephi_nodes.csv                               # Network nodes (keywords + frequency)
+├── gephi_edges.csv                               # Network edges (keyword co-occurrences)
+├── wiki_analysis_report.md                       # Full analysis report (sentiment, TF-IDF, network, ABSA)
 ├── app.py                                        # Streamlit dashboard app
 ├── requirements.txt                              # Dependencies
 ├── .env.example                                  # Example environment variables
@@ -144,8 +150,27 @@ statistical_analysis.ipynb
 This performs statistical comparison of sentiment distributions across the three products.
 
 ---
+### Step 5 — TF-IDF Keyword Analysis
 
-### Step 5 — Run Dashboard
+Open and execute:tfidf_analysis.ipynb
+This generates:
+- top distinctive keywords per product per time period
+- before vs. after keyword comparison
+- structured keyword outputs (`tfidf_keywords.csv`)
+- keyword frequency visualization (`tfidf_keywords.png`)
+
+---
+
+### Step 6 — Keyword Co-occurrence Network (Gephi)
+
+Open and execute:gephi_network_export.ipynb
+This generates:
+- keyword co-occurrence network for each product
+- node file (`gephi_nodes.csv`) and edge file (`gephi_edges.csv`) for Gephi import
+- NetworkX network preview with degree and betweenness centrality measures
+
+---
+### Step 7 — Run Dashboard
 
 ```bash
 streamlit run app.py

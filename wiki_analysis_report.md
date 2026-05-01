@@ -60,7 +60,29 @@ One of the most striking findings is that **"remember" appears as a top keyword 
 
 Other notable keyword shifts include "fail" and "service" rising in Stadia comments after shutdown, "privacy" becoming prominent in Glass discussions (a concern that contributed to its discontinuation), and "miss" appearing in Google+ comments, indicating genuine attachment to the platform.
 
-The keyword co-occurrence network (see `gephi_network_export.ipynb`) further visualizes how these terms cluster. Stadia's network centers around gaming/internet infrastructure, Glass's around vision technology and privacy, and Google+'s around social media comparisons with Facebook and YouTube.
+The full keyword co-occurrence network analysis is covered in Section 5.1 below.
+
+---
+
+## 5.1 Keyword Co-occurrence Network (Gephi)
+
+To complement the TF-IDF analysis, we built a keyword co-occurrence network for each product using the top 30 keywords. Two keywords are connected by an edge if they appear in the same comment at least 3 times. The network was exported as `gephi_nodes.csv` (90 nodes) and `gephi_edges.csv` (427 edges) for visualization in Gephi.
+
+**Hub nodes by product (top 5 by frequency):**
+
+| Product | Top Nodes |
+|---------|-----------|
+| Google Stadia | games (153), game (109), play (105), gaming (103), internet (99) |
+| Google Glass | apple (99), vision (85), glasses (74), video (61), watching (42) |
+| Google+ | youtube (114), video (103), facebook (68), used (51), friends (50) |
+
+**Strongest co-occurrence edges:**
+
+The most notable finding is the **apple–vision edge for Google Glass**, with a co-occurrence weight of 58 — by far the strongest edge across all three networks. This reflects how frequently users compared Google Glass to the Apple Vision Pro, framing Glass as a product that was ahead of its time but executed too early.
+
+For Stadia, the core cluster revolves around **games–play–gaming–internet**, indicating that conversations focused on the gaming experience and streaming infrastructure rather than the brand itself. The **connection–internet** edge (weight 26) points to persistent frustration with latency.
+
+For Google+, the entire network orbits around **youtube** as the central hub — linked to "comment," "video," and "facebook." This makes sense given that Google forced YouTube users onto Google+ for commenting, making YouTube the primary context in which people encountered and discussed the platform.
 
 ---
 

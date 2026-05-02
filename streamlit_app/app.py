@@ -248,7 +248,7 @@ def plot_network(nodes_df, edges_df, product_name):
             line_width=1.5,
             line_color='white'
         ),
-        textfont=dict(size=12, color=COLOR_BLACK, family='Inter', weight='bold')
+        textfont=dict(size=12, color=COLOR_BLACK, family='Inter')
     )
     
     fig = go.Figure(data=edge_traces + [node_trace],

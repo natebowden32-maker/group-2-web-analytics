@@ -389,17 +389,14 @@ def main():
     st.markdown("<p style='color: #6b7280; font-size: 0.95rem; margin-bottom: 2rem;'>LLM-extracted sentiment across 5 core dimensions: Product Quality, Market Demand, Adoption Ability, Timing/Innovation, Price/Value.</p>", unsafe_allow_html=True)
     
     if not df_absa.empty:
-        absa_prod = st.selectbox("Select Product:", ["All Products", "Google Stadia", "Google Glass", "Google+"], key="absa_prod")
+        absa_prod = st.selectbox("Select Product:", ["Google Stadia", "Google Glass", "Google+"], key="absa_prod")
         
         c3, c4 = st.columns([6, 4])
         with c3:
             st.markdown("##### Sentiment Distribution by Aspect")
             
-            if absa_prod == "All Products":
-                filtered_absa = df_absa
-            else:
-                product_mapping = {"Google Stadia": "stadia", "Google Glass": "google_glass", "Google+": "google_plus"}
-                filtered_absa = df_absa[df_absa['product'] == product_mapping.get(absa_prod)]
+            product_mapping = {"Google Stadia": "stadia", "Google Glass": "google_glass", "Google+": "google_plus"}
+            filtered_absa = df_absa[df_absa['product'] == product_mapping.get(absa_prod)]
                 
             absa_dist = filtered_absa.groupby(['aspect', 'sentiment']).size().reset_index(name='count')
             fig_absa = px.bar(absa_dist, x="count", y="aspect", color="sentiment", orientation='h',
@@ -416,9 +413,6 @@ def main():
         with c4:
             st.markdown("##### Interpretation")
             absa_interpretations = {
-                "All Products": """<p style="font-size: 0.95rem; margin-bottom: 12px;"><strong>Product Quality:</strong> The most discussed aspect, heavily negative. Users consistently cited hardware limitations and latency as dealbreakers.</p>
-                <p style="font-size: 0.95rem; margin-bottom: 12px;"><strong>Timing & Innovation:</strong> The only net-positive aspect across the board. Consumers strongly felt these products were "ahead of their time" but poorly executed.</p>
-                <p style="font-size: 0.95rem; margin-bottom: 0;"><strong>Market Demand:</strong> High skepticism suggests these products ultimately failed because they didn't solve real, existing consumer problems.</p>""",
                 "Google Stadia": """<p style="font-size: 0.95rem; margin-bottom: 12px;"><strong>Product Quality & Price:</strong> Heavily criticized for latency, input delay, and missing features compared to traditional consoles.</p>
                 <p style="font-size: 0.95rem; margin-bottom: 0;"><strong>Price/Value:</strong> Users were extremely negative about the value proposition of paying full price for streamed games they didn't own, leading to low adoption.</p>""",
                 "Google Glass": """<p style="font-size: 0.95rem; margin-bottom: 12px;"><strong>Timing & Innovation:</strong> Highly praised for innovation and being 'ahead of its time'.</p>

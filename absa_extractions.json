@@ -1,0 +1,2414 @@
+[
+  {
+    "comment_id":0,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Being one of the first 350 on Google+, I was offered these to try. I didn't get them just because the camera was constan",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"camera was constantly on in the first release, hence the 4-5 hour battery life"
+  },
+  {
+    "comment_id":0,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Being one of the first 350 on Google+, I was offered these to try. I didn't get them just because the camera was constan",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"privacy concerns about Google monitoring user activity"
+  },
+  {
+    "comment_id":1,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Neither one of these problems seem to be a problem anymore",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"problems are no longer an issue"
+  },
+  {
+    "comment_id":2,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I want those apple glasses now just so I can ignore my boring classes at school. (When quarantine is over)",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"want those apple glasses now"
+  },
+  {
+    "comment_id":2,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I want those apple glasses now just so I can ignore my boring classes at school. (When quarantine is over)",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"ignore my boring classes at school"
+  },
+  {
+    "comment_id":3,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Apple vision also not fashionable, who tf going to walk on street wearing that bulky device",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"not fashionable"
+  },
+  {
+    "comment_id":3,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Apple vision also not fashionable, who tf going to walk on street wearing that bulky device",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"who tf going to walk on street wearing that bulky device"
+  },
+  {
+    "comment_id":6,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Just because Google stumbled here does not mean that this type of tech won't continue to be developed.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Google stumbled here"
+  },
+  {
+    "comment_id":6,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Just because Google stumbled here does not mean that this type of tech won't continue to be developed.",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"this type of tech won't continue to be developed"
+  },
+  {
+    "comment_id":7,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"That\u2019s insane people spent $1,500+ and they are just shutting it down. I hope people sue",
+    "aspect":"Price\/Value",
+    "sentiment":"Negative",
+    "justification":"$1,500+ and they are just shutting it down"
+  },
+  {
+    "comment_id":7,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"That\u2019s insane people spent $1,500+ and they are just shutting it down. I hope people sue",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"implies product quality issues leading to discontinuation"
+  },
+  {
+    "comment_id":8,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Carrying a GPS tracker, always on microphone, and camera everywhere is creepy?  Do these people not have phones?",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"The user is questioning the 'creepiness' of the product's features, implying a negative perception of its design or functionality."
+  },
+  {
+    "comment_id":8,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Carrying a GPS tracker, always on microphone, and camera everywhere is creepy?  Do these people not have phones?",
+    "aspect":"Adoption Ability",
+    "sentiment":"Neutral",
+    "justification":"This is a rhetorical question implying that the features are standard and should be easily adopted, but it doesn't directly praise or criticize the product's adoption potential."
+  },
+  {
+    "comment_id":9,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I attended the first \"Glass Roadshow\" even in Durham, North Carolina (still have the poster from it.) Any interest I had",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Any interest I had in the device evaporated with the 10 minutes hands-on demo we got when taking a picture was the only thing that I could get it to do remotely reliably"
+  },
+  {
+    "comment_id":9,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I attended the first \"Glass Roadshow\" even in Durham, North Carolina (still have the poster from it.) Any interest I had",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"taking a picture was the only thing that I could get it to do remotely reliably"
+  },
+  {
+    "comment_id":9,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I attended the first \"Glass Roadshow\" even in Durham, North Carolina (still have the poster from it.) Any interest I had",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"I don't know if the user experience ever improved"
+  },
+  {
+    "comment_id":10,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I saw these back then and i really wanted one",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"user wanted the product"
+  },
+  {
+    "comment_id":11,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"My biggest complain after a month\u2019s usage is, it really hurt my eye\/eyes. Not only my right eye right behind the glass, ",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"it really hurt my eye\/eyes. Not only my right eye right behind the glass, but also the coordination between both eyes. It\u2019s impossible not to get lazy eyes"
+  },
+  {
+    "comment_id":11,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"My biggest complain after a month\u2019s usage is, it really hurt my eye\/eyes. Not only my right eye right behind the glass, ",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Negative",
+    "justification":"missed what\u2019s right in front of their noses"
+  },
+  {
+    "comment_id":11,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"My biggest complain after a month\u2019s usage is, it really hurt my eye\/eyes. Not only my right eye right behind the glass, ",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"sad for its failure"
+  },
+  {
+    "comment_id":12,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I gave a thumbs down for having ads and a promo at the start of the video. Other than that thanks for the video. [Also y",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"having ads and a promo at the start of the video"
+  },
+  {
+    "comment_id":12,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I gave a thumbs down for having ads and a promo at the start of the video. Other than that thanks for the video. [Also y",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"stole your logo from skype"
+  },
+  {
+    "comment_id":13,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Why didnt they make it look like actual specs?",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Why didnt they make it look like actual specs?"
+  },
+  {
+    "comment_id":14,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"i still can't imagine how it is to wear one of those",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"commenter cannot imagine using the product"
+  },
+  {
+    "comment_id":15,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I still use my google glass and even more as of recently since they just passed a law on hands-free cell phones so I can",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"still use my google glass and even more as of recently"
+  },
+  {
+    "comment_id":15,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I still use my google glass and even more as of recently since they just passed a law on hands-free cell phones so I can",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"new law increases demand for hands-free phone calls via Google Glass"
+  },
+  {
+    "comment_id":16,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I remember when they came out and reminded me of DS 9 . The Cardassians wore them in combat .",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Neutral",
+    "justification":"comparison to a popular sci-fi show"
+  },
+  {
+    "comment_id":16,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I remember when they came out and reminded me of DS 9 . The Cardassians wore them in combat .",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"reference to a fictional use case"
+  },
+  {
+    "comment_id":17,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"Legit, still want one of these",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"still want one of these"
+  },
+  {
+    "comment_id":18,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"the concept was pretty cool though, this is the form that the vision pro should've had",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"the concept was pretty cool though"
+  },
+  {
+    "comment_id":18,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"the concept was pretty cool though, this is the form that the vision pro should've had",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"this is the form that the vision pro should've had"
+  },
+  {
+    "comment_id":20,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"7:42 bringus studios could probably install steamos on it if he got his hands on one",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"could probably install steamos on it"
+  },
+  {
+    "comment_id":21,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"As someone who wears glasses, I can't imagine lugging that lobsided brick on my face 24\/7",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"can't imagine lugging that lobsided brick on my face 24\/7"
+  },
+  {
+    "comment_id":22,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"The problem is that they were about 10 years too early at least for consumers. A lot of tech gets filtered down from gov",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Negative",
+    "justification":"they were about 10 years too early at least for consumers"
+  },
+  {
+    "comment_id":22,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"The problem is that they were about 10 years too early at least for consumers. A lot of tech gets filtered down from gov",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"They should\u2019ve started with businesses and the government first"
+  },
+  {
+    "comment_id":22,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"The problem is that they were about 10 years too early at least for consumers. A lot of tech gets filtered down from gov",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"apple will likely release its own version of glass soon and achieve the success that Google wanted, 10 years after Google tried"
+  },
+  {
+    "comment_id":23,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I just remembered this product.",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"User is simply recalling the product, no sentiment expressed about its demand or quality."
+  },
+  {
+    "comment_id":24,
+    "product":"google_glass",
+    "period":"after",
+    "comment":"I never believed the hype!",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"never believed the hype"
+  },
+  {
+    "comment_id":25,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"woooww.... I can't wait to try the new google eyelids.\n\n\n\n\n\nMY EYYYEEESSSS!!!!!!!",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"MY EYYYEEESSSS!!!!!!!"
+  },
+  {
+    "comment_id":26,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"A head mounted camera has already been done, they use them in a lot of sports already. goggle cams are $200 and you can ",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Negative",
+    "justification":"The idea of a head-mounted camera is not new and is already used in sports."
+  },
+  {
+    "comment_id":26,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"A head mounted camera has already been done, they use them in a lot of sports already. goggle cams are $200 and you can ",
+    "aspect":"Price\/Value",
+    "sentiment":"Neutral",
+    "justification":"States the price and availability without expressing a positive or negative opinion."
+  },
+  {
+    "comment_id":27,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"This has the exact amount of views as their subscribers",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"exact amount of views as their subscribers"
+  },
+  {
+    "comment_id":29,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"The potential is amazing; it will be interesting to see how this concept develops. Love it.",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"The potential is amazing"
+  },
+  {
+    "comment_id":29,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"The potential is amazing; it will be interesting to see how this concept develops. Love it.",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Love it"
+  },
+  {
+    "comment_id":30,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"OH WAIT I CAN MAKE MY OWN FIRST PERSON SHOOTER WTH THESE YAAAAAAAAAY",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"User is excited about the ability to create their own content with the product."
+  },
+  {
+    "comment_id":31,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Putting a camera on the edge of each lens would be cool. You could stream live 3-D footage of what people are seeing.",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"Putting a camera on the edge of each lens would be cool"
+  },
+  {
+    "comment_id":31,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Putting a camera on the edge of each lens would be cool. You could stream live 3-D footage of what people are seeing.",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"You could stream live 3-D footage of what people are seeing"
+  },
+  {
+    "comment_id":32,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"all the good talent pooped out ijustine",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"good talent pooped out"
+  },
+  {
+    "comment_id":34,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"I love how Anthony says Ian is late when he's only a minute off time :)",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"sarcasm about lateness"
+  },
+  {
+    "comment_id":35,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"its more then that, its a mix of gps, google search and texting plus a few other things as well",
+    "aspect":"Adoption Ability",
+    "sentiment":"Neutral",
+    "justification":"describes features without expressing opinion"
+  },
+  {
+    "comment_id":36,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"I wish this actually caught on, 9 years later and it still would be amazing to have",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"wish this actually caught on"
+  },
+  {
+    "comment_id":36,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"I wish this actually caught on, 9 years later and it still would be amazing to have",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"9 years later and it still would be amazing to have"
+  },
+  {
+    "comment_id":37,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"These will be one of 'those' trends soon, even though people are like ugh it's stupid...",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"implies a trend that will be disliked or short-lived"
+  },
+  {
+    "comment_id":37,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"These will be one of 'those' trends soon, even though people are like ugh it's stupid...",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"explicitly states negative public opinion"
+  },
+  {
+    "comment_id":38,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Launched ahead of its  time...",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"Launched ahead of its time"
+  },
+  {
+    "comment_id":39,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"\u201cThe photo and video quality are really pretty good.\u201d\n\u2015 Marques Brownlee, 2013",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"The photo and video quality are really pretty good"
+  },
+  {
+    "comment_id":40,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"im so buying this is gonna be awesome",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"so buying this is gonna be awesome"
+  },
+  {
+    "comment_id":41,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"10 years? How? Jeez\u2026. \nSmosh was so great..",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Smosh was so great"
+  },
+  {
+    "comment_id":42,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Best explanation of Glass that I've found anywhere.  Great job!",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Best explanation of Glass that I've found anywhere"
+  },
+  {
+    "comment_id":42,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Best explanation of Glass that I've found anywhere.  Great job!",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Great job!"
+  },
+  {
+    "comment_id":43,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Wish this became a successful idea, too ahead of its time, looks so cool even for todays standards a decade later (I fee",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"Wish this became a successful idea"
+  },
+  {
+    "comment_id":43,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Wish this became a successful idea, too ahead of its time, looks so cool even for todays standards a decade later (I fee",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"too ahead of its time"
+  },
+  {
+    "comment_id":43,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Wish this became a successful idea, too ahead of its time, looks so cool even for todays standards a decade later (I fee",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"looks so cool even for todays standards a decade later"
+  },
+  {
+    "comment_id":44,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"This product was probably 10-15 years ahead of its time. There just wasn't enough AR software at the time, or Lidar, to ",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"This product was probably 10-15 years ahead of its time"
+  },
+  {
+    "comment_id":44,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"This product was probably 10-15 years ahead of its time. There just wasn't enough AR software at the time, or Lidar, to ",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"There just wasn't enough AR software at the time, or Lidar, to truly create a \"metaverse\""
+  },
+  {
+    "comment_id":45,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"very nice! but they all have a go pro with them..",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"very nice!"
+  },
+  {
+    "comment_id":46,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Honestly, the only thing we want these to do is to scan the world around us. Street signs, people, etc. We want it full ",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"user desires for the product's functionality"
+  },
+  {
+    "comment_id":48,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"the nerve gear is what we need",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"the nerve gear is what we need"
+  },
+  {
+    "comment_id":49,
+    "product":"google_glass",
+    "period":"before",
+    "comment":"Last time I was this late Google Glass was relevant",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Negative",
+    "justification":"Implies Google Glass was relevant a long time ago, suggesting it is no longer relevant or was a past trend."
+  },
+  {
+    "comment_id":50,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I hated Google plus because it forced me to join without my consent and the ability to use YouTube. Felt like a hostage.",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"forced me to join without my consent"
+  },
+  {
+    "comment_id":50,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I hated Google plus because it forced me to join without my consent and the ability to use YouTube. Felt like a hostage.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Felt like a hostage"
+  },
+  {
+    "comment_id":52,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"has google+ become a mixture of tinder and tumblr with some deviantart in it?",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"describes the platform's features"
+  },
+  {
+    "comment_id":53,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I\u2019ve met so many great people from this site. The many memories i\u2019ve had there were more than just to cherish. Now its g",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"met so many great people from this site"
+  },
+  {
+    "comment_id":53,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I\u2019ve met so many great people from this site. The many memories i\u2019ve had there were more than just to cherish. Now its g",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"The many memories i\u2019ve had there were more than just to cherish"
+  },
+  {
+    "comment_id":53,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I\u2019ve met so many great people from this site. The many memories i\u2019ve had there were more than just to cherish. Now its g",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Now its gone. My home is gone."
+  },
+  {
+    "comment_id":54,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"Im pretty close to giving up the Internet all together just to remove Google from my life",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"User is willing to give up internet to avoid Google products, indicating extreme dissatisfaction and lack of demand for Google services."
+  },
+  {
+    "comment_id":55,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"5:30 i don\u2019t think anyone will get this, but this person has an ibuki mioda profile picture and it\u2019s so painfully accura",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"i don\u2019t think anyone will get this"
+  },
+  {
+    "comment_id":56,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"You should have reviewed the 'draw my oc' community. What a sight.",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"comment refers to a community, not a product"
+  },
+  {
+    "comment_id":58,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"It's the 2nd, Google + is still here and alive",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"Google + is still here and alive"
+  },
+  {
+    "comment_id":59,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"The amount of \"uwu\" in Google+ is poisonous.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"The amount of \"uwu\" in Google+ is poisonous"
+  },
+  {
+    "comment_id":60,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"About damn time! Get that crap outta here",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"About damn time!"
+  },
+  {
+    "comment_id":60,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"About damn time! Get that crap outta here",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Get that crap outta here"
+  },
+  {
+    "comment_id":61,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"Oh man... my Nexus S and Google + in 2011 was such a fun experience. Google + was fun but just always an odd kinda thing",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"my Nexus S and Google + in 2011 was such a fun experience"
+  },
+  {
+    "comment_id":61,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"Oh man... my Nexus S and Google + in 2011 was such a fun experience. Google + was fun but just always an odd kinda thing",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"Google + was fun but just always an odd kinda thing to me"
+  },
+  {
+    "comment_id":61,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"Oh man... my Nexus S and Google + in 2011 was such a fun experience. Google + was fun but just always an odd kinda thing",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"had a learning curve to it"
+  },
+  {
+    "comment_id":62,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I'm watching this before the shutdown\nI am still actively using g+, because I've been using it for so long and it feels ",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"actively using g+, because I've been using it for so long and it feels like home"
+  },
+  {
+    "comment_id":62,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I'm watching this before the shutdown\nI am still actively using g+, because I've been using it for so long and it feels ",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"g+ is better in a lot of ways than fb, twitter, tumblr or insta"
+  },
+  {
+    "comment_id":62,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I'm watching this before the shutdown\nI am still actively using g+, because I've been using it for so long and it feels ",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"devastated when I first heard the news in late 2018"
+  },
+  {
+    "comment_id":62,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I'm watching this before the shutdown\nI am still actively using g+, because I've been using it for so long and it feels ",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"I will now be moving to other social media but I already know I'll never have what I had on g+"
+  },
+  {
+    "comment_id":63,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"yo i remember g+ bc half of us weren\u2019t allowed a insta or facebook and my parents had no clue what g+ was",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"Implies limited market demand due to external restrictions"
+  },
+  {
+    "comment_id":63,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"yo i remember g+ bc half of us weren\u2019t allowed a insta or facebook and my parents had no clue what g+ was",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"Indicates a lack of understanding or ease of adoption by the general public"
+  },
+  {
+    "comment_id":65,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I'm gonna miss this app",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"User is sad about the app being discontinued, implying they adopted and liked it."
+  },
+  {
+    "comment_id":66,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"Who going to get to 100m first?\n\nPewdiepie- Give sensual loving to the like button\n\nEvil- Get vaccinated,     \n\n\nQUICKLY",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"Question about market adoption"
+  },
+  {
+    "comment_id":67,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"NEXT\nwhy soothouse is shutting down",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"The shutdown implies a lack of market demand or viability."
+  },
+  {
+    "comment_id":68,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"congrats on 2 million i guess 1,999,990 because i subbed you with 10 accounts",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"congrats on 2 million i guess"
+  },
+  {
+    "comment_id":68,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"congrats on 2 million i guess 1,999,990 because i subbed you with 10 accounts",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"1,999,990 because i subbed you with 10 accounts - implies artificial demand"
+  },
+  {
+    "comment_id":69,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"Google+: I don't feel so good",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"I don't feel so good"
+  },
+  {
+    "comment_id":70,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I hate the comments bit at the end. Is it necessary? It's waste of time.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"hate the comments bit at the end"
+  },
+  {
+    "comment_id":70,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"I hate the comments bit at the end. Is it necessary? It's waste of time.",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"Is it necessary? It's waste of time."
+  },
+  {
+    "comment_id":72,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"Flare TV congrats for 2M without any hardwork!!",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"congrats for 2M without any hardwork"
+  },
+  {
+    "comment_id":74,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"No headphone jack?  I\u2019ll just get an iPhone then.  Why bother?",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Lack of a headphone jack is a negative product quality"
+  },
+  {
+    "comment_id":74,
+    "product":"google_plus",
+    "period":"after",
+    "comment":"No headphone jack?  I\u2019ll just get an iPhone then.  Why bother?",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"Implies low market demand due to a missing feature"
+  },
+  {
+    "comment_id":75,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"today i woke up and had this song stuck in my head for absolutely no reason. emma blackery your impact in my psyche is t",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"this song still slaps"
+  },
+  {
+    "comment_id":76,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"when its coming out to the public",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"question about public release date"
+  },
+  {
+    "comment_id":77,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"Everything I post on communities is marked as spam!\nIs it because I'm new?",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Everything I post on communities is marked as spam!"
+  },
+  {
+    "comment_id":78,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"Google+ is worse than myspace.. ....",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"worse than myspace"
+  },
+  {
+    "comment_id":79,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"I love this song :) It\u2019s so catchy that I am humming it all the time.\nAnd I hope Google will learn from this never again",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"I love this song :) It\u2019s so catchy that I am humming it all the time."
+  },
+  {
+    "comment_id":79,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"I love this song :) It\u2019s so catchy that I am humming it all the time.\nAnd I hope Google will learn from this never again",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"never again to make updates this big that are still not even beta. If that stuff would at least work \u2026 WE WANT FIXES, NOT NEW BUGS."
+  },
+  {
+    "comment_id":80,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"How many years is this going to be in beta?",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"Implies a long and potentially indefinite beta period, suggesting poor product readiness or a lack of commitment to a full release."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"This is why Google + sucks"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Both robots are old and battered."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"describes the sounds R2 unit makes"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"soldiers holding shattered arms and faces"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"insulting description of a robot"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"robots described as hapless"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"description of the environment"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"harsh environmental conditions"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"Luke Skywalker's heroic aspirations"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"description of Luke Skywalker's appearance and demeanor"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"moisture vaporator described as battered"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"robot described as beatup"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"appears to be barely functioning and moves with jerky motions"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"smoke begins to pour out of every joint"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"smoldering robot to hum madly"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"description of attire, no sentiment expressed"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Biggs has an air of cool that seems slightly phony"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Camie grabs the binoculars away banging them against the building in the process."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Hey, easy with those..."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"The Rebellion is a long way from here. I doubt if the Empire would even fight to keep this system. Believe me Luke, this planet is a big hunk of nothing..."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"grumbling about Luke's ineptitude."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"she is brutally shoved when she is unable to keep up with the briskly marching troops."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"The two helpless astro-droids"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"clumsily work their way across the desert wasteland"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"My joints are almost frozen"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"What a desolate place this is"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"This way is much easier"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"malfunctioning little twerp"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"This is all his fault!"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"The user feels tricked into adopting a path that will not lead to success."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"The character expresses relief and hope upon seeing a transport, indicating a need or demand for such a service."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"The description of the flight and the damage to the Skyhopper suggests a negative experience with the vehicle's performance or durability."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"The consequence of the action (being grounded) implies a failure or negative outcome related to the use of the Skyhopper."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Despite the negative consequences, the user describes the experience as 'fantastic', indicating a positive perception of the event or the activity itself."
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"sarcasm about Luke's reaction"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"difficulty in finding contacts"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"belief in the Rebellion's cause"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Uncle's blaster is effective"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Price\/Value",
+    "sentiment":"Positive",
+    "justification":"Vaporators are profitable"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"Empire's actions threaten commerce"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"Empire's nationalization of commerce"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Price\/Value",
+    "sentiment":"Negative",
+    "justification":"Empire's actions reduce uncle to a tenant"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Neutral",
+    "justification":"acknowledges inevitable change"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"powerful magnetic ray shoots out of the rocks and engulfs him in an eerie glow"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"His bright computer lights flicker off, then on, then off again"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"scurry three Jawas, no taller than Artoo"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"They wear grubby cloaks and their faces are shrouded so only their glowing eyes can be seen"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"They hiss and make odd guttural sounds"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Adoption Ability",
+    "sentiment":"Neutral",
+    "justification":"heave the heavy robot onto their shoulders and carry him off down the trail"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"huge tank-like vehicle the size of a four-story house"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"weld a small disk on the side of Artoo"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"put him under a large tube on the side of the vehicle and the little robot is sucked into the giant machine"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"odd assortment of robots"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"battered captives"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"The shrouded little creatures smell horribly"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"I have no need for a protocol droid"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"Droid's ability to understand a specific language"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Droid's past experience with similar programming"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"Droid's fluency in another language"
+  },
+  {
+    "comment_id":82,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"This is why Google + sucks:\n\nA long time ago, in a galaxy far, far, away...\n\n\nA vast sea of stars serves as the backdrop",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Owen's frustration with the droid's speech"
+  },
+  {
+    "comment_id":83,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"do a video on how iOS 6 apple maps are awesome",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"iOS 6 apple maps are awesome"
+  },
+  {
+    "comment_id":85,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"Bye, Bye Google+. RIP 2k18.",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"product discontinuation"
+  },
+  {
+    "comment_id":87,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"I think in this video the audio quality isn't as good as usual, quite some echo probably because you don't have the mic ",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"audio quality isn't as good as usual, quite some echo"
+  },
+  {
+    "comment_id":88,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"Neuer Trend im Internet: Gutes schlechter machen!\nVergesst alle Trends die seither \"in\" waren. \"Besser machen\" war geste",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Gutes schlechter machen"
+  },
+  {
+    "comment_id":88,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"Neuer Trend im Internet: Gutes schlechter machen!\nVergesst alle Trends die seither \"in\" waren. \"Besser machen\" war geste",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"mach es so schlecht, wie du nur kannst"
+  },
+  {
+    "comment_id":88,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"Neuer Trend im Internet: Gutes schlechter machen!\nVergesst alle Trends die seither \"in\" waren. \"Besser machen\" war geste",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"So wie Google es macht"
+  },
+  {
+    "comment_id":90,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"So Google+ isn't just on my phone?",
+    "aspect":"Adoption Ability",
+    "sentiment":"Neutral",
+    "justification":"question about product availability"
+  },
+  {
+    "comment_id":91,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"this guy sounds like one of those Apple people who demo their software hahah.",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"comparing to 'Apple people' implies a negative stereotype about software demos"
+  },
+  {
+    "comment_id":92,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"i don't agree its an awesome new re-design!!",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"awesome new re-design!!"
+  },
+  {
+    "comment_id":94,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"Honestly this is still savage af",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"savage af implies something is bad or poorly done"
+  },
+  {
+    "comment_id":95,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ",
+    "aspect":"Adoption Ability",
+    "sentiment":"Neutral",
+    "justification":"User was an early adopter of Google Search."
+  },
+  {
+    "comment_id":95,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"User experienced issues with Gmail."
+  },
+  {
+    "comment_id":95,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"User was impressed by the seamless integration and ease of use of Google services on Nexus 7."
+  },
+  {
+    "comment_id":95,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"User found the Nexus 7 experience to be 'pretty neat'."
+  },
+  {
+    "comment_id":95,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"I was a beta user of Google search when it first started.  I used gmail until I was getting weird things happening with ",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"User found the +1 feature to be 'pretty neat'."
+  },
+  {
+    "comment_id":96,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"this ending up back in my recommended in 2022 damn. i used to watch this pretty much every day with it being so catchy. ",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"so catchy"
+  },
+  {
+    "comment_id":96,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"this ending up back in my recommended in 2022 damn. i used to watch this pretty much every day with it being so catchy. ",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"a good journey through memory lane"
+  },
+  {
+    "comment_id":97,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"Can't WAIT to get in!",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"Can't WAIT to get in!"
+  },
+  {
+    "comment_id":99,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"youtube keeps changing shit that doesnt need changed they are ruining youtube and our community",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"keeps changing shit that doesnt need changed"
+  },
+  {
+    "comment_id":99,
+    "product":"google_plus",
+    "period":"before",
+    "comment":"youtube keeps changing shit that doesnt need changed they are ruining youtube and our community",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"ruining youtube and our community"
+  },
+  {
+    "comment_id":100,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Stadia more like DIDN'T Staydhere hahahaha",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"pun on the name implying it didn't last or gain adoption"
+  },
+  {
+    "comment_id":101,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Also, their \"Stadia\" jingle is annoying. Every time I got an ad for it I'd immediately mute it",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"their \"Stadia\" jingle is annoying"
+  },
+  {
+    "comment_id":101,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Also, their \"Stadia\" jingle is annoying. Every time I got an ad for it I'd immediately mute it",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"Every time I got an ad for it I'd immediately mute it"
+  },
+  {
+    "comment_id":102,
+    "product":"stadia",
+    "period":"after",
+    "comment":"For a company that is supposed to know everything about you, its rather ironic that Stadia failed because they didn't un",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"Stadia failed because they didn't understand consumers"
+  },
+  {
+    "comment_id":103,
+    "product":"stadia",
+    "period":"after",
+    "comment":"This was like the most predictable cancellation of all time. Not sure how they thought it would be possible to achieve s",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"most predictable cancellation of all time"
+  },
+  {
+    "comment_id":103,
+    "product":"stadia",
+    "period":"after",
+    "comment":"This was like the most predictable cancellation of all time. Not sure how they thought it would be possible to achieve s",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Negative",
+    "justification":"Not sure how they thought it would be possible to achieve success in such a short timespan"
+  },
+  {
+    "comment_id":103,
+    "product":"stadia",
+    "period":"after",
+    "comment":"This was like the most predictable cancellation of all time. Not sure how they thought it would be possible to achieve s",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Stadia had literally nothing going for it"
+  },
+  {
+    "comment_id":104,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Cyberpunk 2077 was awesome on Stadia and by the fact that I had YouTube Premium family with someone who truly believed i",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Cyberpunk 2077 was awesome on Stadia"
+  },
+  {
+    "comment_id":104,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Cyberpunk 2077 was awesome on Stadia and by the fact that I had YouTube Premium family with someone who truly believed i",
+    "aspect":"Price\/Value",
+    "sentiment":"Positive",
+    "justification":"I could play it for free!"
+  },
+  {
+    "comment_id":105,
+    "product":"stadia",
+    "period":"after",
+    "comment":"It amazing how many projects that Phil Harrison has killed off or almost killed off in his career.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Phil Harrison has killed off or almost killed off projects"
+  },
+  {
+    "comment_id":106,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I knew that this would fail from The First time I saw this. Imagine not owning games & paying a subscription for it on a",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"knew that this would fail from The First time I saw this"
+  },
+  {
+    "comment_id":106,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I knew that this would fail from The First time I saw this. Imagine not owning games & paying a subscription for it on a",
+    "aspect":"Price\/Value",
+    "sentiment":"Negative",
+    "justification":"Imagine not owning games & paying a subscription for it on a console you own"
+  },
+  {
+    "comment_id":107,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Also, Stadia is still running on an outdated Vega 56 GPU, released five years ago for PC.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"outdated Vega 56 GPU, released five years ago for PC"
+  },
+  {
+    "comment_id":108,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I loved my Stadia, and had absolutely no lag at all. I worked in a Google data center. Experience was flawless.",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"loved my Stadia"
+  },
+  {
+    "comment_id":108,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I loved my Stadia, and had absolutely no lag at all. I worked in a Google data center. Experience was flawless.",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"had absolutely no lag at all"
+  },
+  {
+    "comment_id":108,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I loved my Stadia, and had absolutely no lag at all. I worked in a Google data center. Experience was flawless.",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Experience was flawless"
+  },
+  {
+    "comment_id":109,
+    "product":"stadia",
+    "period":"after",
+    "comment":"My gripe with stadia was you have to pay for a game at full price but not own\/download it making it scummy because if it",
+    "aspect":"Price\/Value",
+    "sentiment":"Negative",
+    "justification":"pay for a game at full price but not own\/download it making it scummy"
+  },
+  {
+    "comment_id":109,
+    "product":"stadia",
+    "period":"after",
+    "comment":"My gripe with stadia was you have to pay for a game at full price but not own\/download it making it scummy because if it",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"if it gets removed frond the stadia playlist that\u2019s something you\u2019re never getting back and all progress gone forever"
+  },
+  {
+    "comment_id":109,
+    "product":"stadia",
+    "period":"after",
+    "comment":"My gripe with stadia was you have to pay for a game at full price but not own\/download it making it scummy because if it",
+    "aspect":"Price\/Value",
+    "sentiment":"Positive",
+    "justification":"If it treated the games like a rental price so instead of paying for game to stream at full price it was closer to 1\/3 the price it could\u2019ve been somewhat successful"
+  },
+  {
+    "comment_id":109,
+    "product":"stadia",
+    "period":"after",
+    "comment":"My gripe with stadia was you have to pay for a game at full price but not own\/download it making it scummy because if it",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"getting people who may not have the money to buy a lot of games to be able to buy some more for a lower price"
+  },
+  {
+    "comment_id":110,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I still play with my stadia almost everyday. I still have hope for it",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"still play with my stadia almost everyday"
+  },
+  {
+    "comment_id":110,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I still play with my stadia almost everyday. I still have hope for it",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"still have hope for it"
+  },
+  {
+    "comment_id":111,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I actually really like the stadia controller and love the clicking buttons. Thankfully, I was able to convert it into a ",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"really like the stadia controller and love the clicking buttons"
+  },
+  {
+    "comment_id":111,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I actually really like the stadia controller and love the clicking buttons. Thankfully, I was able to convert it into a ",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"able to convert it into a Bluetooth controller when they offered that"
+  },
+  {
+    "comment_id":112,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I legitimately didn't know what Stadia was until this video. I got bombarded with adverts for it for a few years but non",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"user was unaware of the product's existence"
+  },
+  {
+    "comment_id":112,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I legitimately didn't know what Stadia was until this video. I got bombarded with adverts for it for a few years but non",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"advertising failed to communicate the product's value proposition"
+  },
+  {
+    "comment_id":112,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I legitimately didn't know what Stadia was until this video. I got bombarded with adverts for it for a few years but non",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"product failed to generate interest or curiosity"
+  },
+  {
+    "comment_id":112,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I legitimately didn't know what Stadia was until this video. I got bombarded with adverts for it for a few years but non",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"lack of social buzz or discussion indicates low market interest"
+  },
+  {
+    "comment_id":113,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Let\u2019s just be sad about the people that sold all their shit counting on this. A lot of people lost a lot of shit and peo",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"people that sold all their shit counting on this"
+  },
+  {
+    "comment_id":113,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Let\u2019s just be sad about the people that sold all their shit counting on this. A lot of people lost a lot of shit and peo",
+    "aspect":"Price\/Value",
+    "sentiment":"Negative",
+    "justification":"A lot of people lost a lot of shit"
+  },
+  {
+    "comment_id":114,
+    "product":"stadia",
+    "period":"after",
+    "comment":"It\u2019s sad because as a concept it allowed me to play games my mac could never have handled. Guess I\u2019ll just have to try o",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"as a concept it allowed me to play games my mac could never have handled"
+  },
+  {
+    "comment_id":115,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I genuinely liked this as a system. I played cyber punk on it when my PC has no way of doing so on its own hardware",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"I genuinely liked this as a system"
+  },
+  {
+    "comment_id":115,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I genuinely liked this as a system. I played cyber punk on it when my PC has no way of doing so on its own hardware",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"played cyber punk on it when my PC has no way of doing so on its own hardware"
+  },
+  {
+    "comment_id":116,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Only one reason needed: Phil Harrison.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Implies Phil Harrison was the sole reason for failure, thus a negative aspect of product quality\/management."
+  },
+  {
+    "comment_id":117,
+    "product":"stadia",
+    "period":"after",
+    "comment":"it\u2019s like google thought Stadia was like Gmail\u2026they didn\u2019t realise they also had to write the emails",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"Implies Google misunderstood the product and its market"
+  },
+  {
+    "comment_id":117,
+    "product":"stadia",
+    "period":"after",
+    "comment":"it\u2019s like google thought Stadia was like Gmail\u2026they didn\u2019t realise they also had to write the emails",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"Suggests a lack of essential features or support, comparing it unfavorably to Gmail's core functionality"
+  },
+  {
+    "comment_id":118,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I remember wanting to buy this 2-3 months after it came out & the reviews were TERRIBLE, definitely scared me off",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"reviews were TERRIBLE"
+  },
+  {
+    "comment_id":118,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I remember wanting to buy this 2-3 months after it came out & the reviews were TERRIBLE, definitely scared me off",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"reviews were TERRIBLE, definitely scared me off"
+  },
+  {
+    "comment_id":119,
+    "product":"stadia",
+    "period":"after",
+    "comment":"this video is a one big lecture for Google Executives steering Stadia",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"implies Stadia failed due to executive decisions, not user interest"
+  },
+  {
+    "comment_id":120,
+    "product":"stadia",
+    "period":"after",
+    "comment":"It sure seems like this video needs to have more awareness in this community. Charlie is in-depth with what everything h",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"needs to have more awareness in this community"
+  },
+  {
+    "comment_id":120,
+    "product":"stadia",
+    "period":"after",
+    "comment":"It sure seems like this video needs to have more awareness in this community. Charlie is in-depth with what everything h",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"Charlie is in-depth with what everything he has to say to us, and that\u2019s impressive in many ways"
+  },
+  {
+    "comment_id":121,
+    "product":"stadia",
+    "period":"after",
+    "comment":"I didn't know MatPat simped for Stadia, ouch.",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"implies Stadia had low market demand or appeal"
+  },
+  {
+    "comment_id":122,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Charlie confusing the Sega Saturn with the Genisis still physically hurts me.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"confusing the Sega Saturn with the Genisis still physically hurts me"
+  },
+  {
+    "comment_id":123,
+    "product":"stadia",
+    "period":"after",
+    "comment":"Charlie's use for ouya is hilarious, I used to have one and it ended up a paper weight for me",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"ended up a paper weight for me"
+  },
+  {
+    "comment_id":124,
+    "product":"stadia",
+    "period":"after",
+    "comment":"CallMeKevin made a fantastic video about the Oyua. Obviously he made fun of it, but ended up turning the whole thing int",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"ended up turning the whole thing into a positive since the Ouya can be turned in to an amazing, super portable Emulator game console"
+  },
+  {
+    "comment_id":125,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Non-Paid reviews of Stadia: \"It's f*cking RAW!\"\n Paid promotion reviews of Stadia: \"Finally, some good f*cking food.\"",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"unpaid review indicates high quality"
+  },
+  {
+    "comment_id":125,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Non-Paid reviews of Stadia: \"It's f*cking RAW!\"\n Paid promotion reviews of Stadia: \"Finally, some good f*cking food.\"",
+    "aspect":"Price\/Value",
+    "sentiment":"Positive",
+    "justification":"paid promotion implies value"
+  },
+  {
+    "comment_id":126,
+    "product":"stadia",
+    "period":"before",
+    "comment":"All review that are not sponsored say its trash and they don't recommend it.",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"All review that are not sponsored say its trash"
+  },
+  {
+    "comment_id":126,
+    "product":"stadia",
+    "period":"before",
+    "comment":"All review that are not sponsored say its trash and they don't recommend it.",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"they don't recommend it"
+  },
+  {
+    "comment_id":127,
+    "product":"stadia",
+    "period":"before",
+    "comment":"I still like buying the disc n installing it",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"User preference for traditional installation method"
+  },
+  {
+    "comment_id":128,
+    "product":"stadia",
+    "period":"before",
+    "comment":"\"Best Case Scenario\" With all the Equipment that Google says you need to get optimum level experience.",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"Implies that even under ideal conditions, the experience might not be great."
+  },
+  {
+    "comment_id":128,
+    "product":"stadia",
+    "period":"before",
+    "comment":"\"Best Case Scenario\" With all the Equipment that Google says you need to get optimum level experience.",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"Suggests a high barrier to entry or complex setup for optimal use."
+  },
+  {
+    "comment_id":129,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Playing AC by streaming..... UHF, Google, boy, that seems INSANE and very impossible but you're Google, you're welcome t",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"seems INSANE and very impossible"
+  },
+  {
+    "comment_id":129,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Playing AC by streaming..... UHF, Google, boy, that seems INSANE and very impossible but you're Google, you're welcome t",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"you're Google, you're welcome to try \u2014 neutral on market demand"
+  },
+  {
+    "comment_id":130,
+    "product":"stadia",
+    "period":"before",
+    "comment":"\u201cSponsored by Google\u201d Hmm, as Austin said, \"This is obviously not a biased review\"",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"sarcasm implying the review is biased due to sponsorship"
+  },
+  {
+    "comment_id":131,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Anything related to internet, electronics etc. exist...\nGoogle:\n-I must take my place.",
+    "aspect":"Market Demand",
+    "sentiment":"Neutral",
+    "justification":"Vague statement about existence of products in the category"
+  },
+  {
+    "comment_id":131,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Anything related to internet, electronics etc. exist...\nGoogle:\n-I must take my place.",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Neutral",
+    "justification":"Sarcastic response implying Google's tendency to enter and then discontinue products."
+  },
+  {
+    "comment_id":132,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Get mugged in NY, Jake's walks by:\n\"Hey, mugging is usually sometimes maybe not cool and sucks... Unless you are a mugge",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"mugging is usually sometimes maybe not cool and sucks"
+  },
+  {
+    "comment_id":132,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Get mugged in NY, Jake's walks by:\n\"Hey, mugging is usually sometimes maybe not cool and sucks... Unless you are a mugge",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"Unless you are a mugger then I say 'do your thing'"
+  },
+  {
+    "comment_id":133,
+    "product":"stadia",
+    "period":"before",
+    "comment":"2018 - gamer - \u201ccannot have wireless mouse causes to much input delay\u201d\n2019 - google - \u201cstream your game from servers ha",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"input delay"
+  },
+  {
+    "comment_id":133,
+    "product":"stadia",
+    "period":"before",
+    "comment":"2018 - gamer - \u201ccannot have wireless mouse causes to much input delay\u201d\n2019 - google - \u201cstream your game from servers ha",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"servers half the world away implies latency"
+  },
+  {
+    "comment_id":134,
+    "product":"stadia",
+    "period":"before",
+    "comment":"8:27 \"Google has been known to abandon services\"\nPerson gives a thumbs up to the camera",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"commenter implies Google abandons services, which negatively impacts adoption ability"
+  },
+  {
+    "comment_id":135,
+    "product":"stadia",
+    "period":"before",
+    "comment":"\"it's not for me\"\nThat is the most harsh thing I've heard Jake say about ANYTHING!",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"user states product is not for them"
+  },
+  {
+    "comment_id":136,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Its very disrespectful to open up coffins to look at the dead",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"very disrespectful to open up coffins to look at the dead"
+  },
+  {
+    "comment_id":137,
+    "product":"stadia",
+    "period":"before",
+    "comment":"\ufe0fThis the system Soulja boy meant to drop\ufe0f",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Neutral",
+    "justification":"This the system Soulja boy meant to drop"
+  },
+  {
+    "comment_id":138,
+    "product":"stadia",
+    "period":"before",
+    "comment":"cant wait to try stadia on my \n24kb download and 0.5kb upload",
+    "aspect":"Product Quality",
+    "sentiment":"Negative",
+    "justification":"sarcasm about poor internet speed"
+  },
+  {
+    "comment_id":139,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Let\u2019s say goodbye. At least the controller will still work. I think.",
+    "aspect":"Product Quality",
+    "sentiment":"Neutral",
+    "justification":"uncertainty about controller functionality implies potential quality issues"
+  },
+  {
+    "comment_id":140,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Hi, I'm from the future. This didn't age too well did it?",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Negative",
+    "justification":"didn't age too well"
+  },
+  {
+    "comment_id":141,
+    "product":"stadia",
+    "period":"before",
+    "comment":"The problem is not if it's possible, the real problem will be accessibility, that's a lot of data to manage and many peo",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"accessibility, that's a lot of data to manage"
+  },
+  {
+    "comment_id":141,
+    "product":"stadia",
+    "period":"before",
+    "comment":"The problem is not if it's possible, the real problem will be accessibility, that's a lot of data to manage and many peo",
+    "aspect":"Market Demand",
+    "sentiment":"Negative",
+    "justification":"many people don't have the connection speed"
+  },
+  {
+    "comment_id":142,
+    "product":"stadia",
+    "period":"before",
+    "comment":"10:27 thank you for showing this! this is no big deal of a latency",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"no big deal of a latency"
+  },
+  {
+    "comment_id":143,
+    "product":"stadia",
+    "period":"before",
+    "comment":"This makes me happy because the other reviews where sponsors by stadia so hearing a non biased and honest opinion is ver",
+    "aspect":"Market Demand",
+    "sentiment":"Positive",
+    "justification":"hearing a non biased and honest opinion is very uplifting"
+  },
+  {
+    "comment_id":144,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Now. I'll play my OFFLINE games. Thanks.",
+    "aspect":"Adoption Ability",
+    "sentiment":"Positive",
+    "justification":"user can still play offline games"
+  },
+  {
+    "comment_id":146,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Wow, this looks kinda neat.  I hope it doesn\u2019t shut down in a few years, causing the developers to refund everyone every",
+    "aspect":"Product Quality",
+    "sentiment":"Positive",
+    "justification":"looks kinda neat"
+  },
+  {
+    "comment_id":146,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Wow, this looks kinda neat.  I hope it doesn\u2019t shut down in a few years, causing the developers to refund everyone every",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"hope it doesn\u2019t shut down in a few years"
+  },
+  {
+    "comment_id":147,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Google : \"Stadia is the future of gaming\"\n\nMy 2mb internet : \"Well yes, but actually no\"",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"Stadia is the future of gaming"
+  },
+  {
+    "comment_id":147,
+    "product":"stadia",
+    "period":"before",
+    "comment":"Google : \"Stadia is the future of gaming\"\n\nMy 2mb internet : \"Well yes, but actually no\"",
+    "aspect":"Adoption Ability",
+    "sentiment":"Negative",
+    "justification":"The user's slow internet connection made Stadia unusable, implying poor adoption ability for users with less than ideal infrastructure."
+  },
+  {
+    "comment_id":148,
+    "product":"stadia",
+    "period":"before",
+    "comment":"What? Throw the money for it?",
+    "aspect":"Price\/Value",
+    "sentiment":"Negative",
+    "justification":"Implies the price is too high or not worth it."
+  },
+  {
+    "comment_id":149,
+    "product":"stadia",
+    "period":"before",
+    "comment":"If this happened..we are on next level of tech",
+    "aspect":"Timing\/Innovation",
+    "sentiment":"Positive",
+    "justification":"on next level of tech"
+  }
+]

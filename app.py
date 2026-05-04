@@ -384,7 +384,66 @@ def main():
 
     st.markdown("<hr style='border: none; border-top: 1px solid #e5e7eb; margin: 2rem 0;'>", unsafe_allow_html=True)
     
-    # --- ABSA Section ---
+    st.markdown("<hr style='border: none; border-top: 1px solid #e5e7eb; margin: 2rem 0;'>", unsafe_allow_html=True)
+
+    # --- Statistical Analysis Section ---
+    st.markdown("### Statistical Analysis: Welch's Independent t-Test Results")
+    st.markdown("<p style='color: #6b7280; font-size: 0.95rem; margin-bottom: 2rem;'>Testing whether sentiment shifts before vs. after discontinuation are statistically significant (α = 0.05).</p>", unsafe_allow_html=True)
+
+    stat_results = []
+    for product in ["Google Stadia", "Google Glass", "Google+"]:
+        before_scores = df_raw[(df_raw['product'] == product) & (df_raw['period'] == 'Before')]["polarity"]
+        after_scores  = df_raw[(df_raw['product'] == product) & (df_raw['period'] == 'After')]["polarity"]
+        if len(before_scores) > 10 and len(after_scores) > 10:
+            t_stat, p_val = stats.ttest_ind(before_scores, after_scores, equal_var=False)
+            direction = "Down" if after_scores.mean() < before_scores.mean() else "Up"
+            stat_results.append({
+                "Product": product,
+                "Before Mean": f"{before_scores.mean():.4f}",
+                "After Mean":  f"{after_scores.mean():.4f}",
+                "t-Statistic": f"{t_stat:.4f}",
+                "p-Value":     f"{p_val:.4f}",
+                "Significant": "Yes" if p_val < 0.05 else "No",
+                "Direction":   direction
+            })
+
+    if stat_results:
+        stat_df = pd.DataFrame(stat_results)
+        fig_table = go.Figure(data=[go.Table(
+            header=dict(
+                values=list(stat_df.columns),
+                fill_color='#111827',
+                font=dict(color='white', size=12),
+                align='center',
+                height=36
+            ),
+            cells=dict(
+                values=[stat_df[c] for c in stat_df.columns],
+                fill_color=[['#fef2f2' if v == 'Yes' else 'white' for v in stat_df['Significant']]],
+                align='center',
+                font=dict(size=11),
+                height=32
+            )
+        )])
+        fig_table.update_layout(margin=dict(l=0, r=0, t=0, b=0), height=175)
+        st.plotly_chart(fig_table, use_container_width=True, config={'displayModeBar': False})
+
+        p_cols = st.columns(3)
+        for i, row in enumerate(stat_results):
+            p_val_f = float(row['p-Value'])
+            card_color = '#dc2626' if p_val_f < 0.05 else '#6b7280'
+            with p_cols[i]:
+                st.markdown(f"""
+                <div class="metric-card" style="border-left: 4px solid {card_color}; text-align: center;">
+                    <div class="metric-label">{row['Product']}</div>
+                    <div style="font-size: 1.4rem; font-weight: 700; color: {card_color};">p = {row['p-Value']}</div>
+                    <div style="font-size: 0.85rem; color: #6b7280;">{row['Direction']} | {row['Significant']}</div>
+                </div>
+                """, unsafe_allow_html=True)
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+        # --- ABSA Section ---
     st.markdown("### Aspect-Based Sentiment Analysis (ABSA)")
     st.markdown("<p style='color: #6b7280; font-size: 0.95rem; margin-bottom: 2rem;'>LLM-extracted sentiment across 5 core dimensions: Product Quality, Market Demand, Adoption Ability, Timing/Innovation, Price/Value.</p>", unsafe_allow_html=True)
     
@@ -424,7 +483,7 @@ def main():
             current_absa_interp = absa_interpretations.get(absa_prod, "")
             
             st.markdown(f"""
-            <div style="border-left: 4px solid {{COLOR_RED}}; border: 1px solid #e5e7eb; border-radius: 4px; padding: 16px; background-color: #ffffff; height: 350px; overflow-y: auto;">
+            <div style="border-left: 4px solid #dc2626; border: 1px solid #e5e7eb; border-radius: 4px; padding: 16px; background-color: #ffffff; height: 350px; overflow-y: auto;">
                 {current_absa_interp}
             </div>
             """, unsafe_allow_html=True)
@@ -532,6 +591,61 @@ def main():
             ''', unsafe_allow_html=True)
     else:
         st.info("Network Graph datasets not found.")
+
+
+    st.markdown("<hr style='border: none; border-top: 1px solid #e5e7eb; margin: 2rem 0;'>", unsafe_allow_html=True)
+
+    # --- Executive Recommendation ---
+    st.markdown("### Executive Recommendation")
+    st.markdown("<p style='color: #6b7280; font-size: 0.95rem; margin-bottom: 2rem;'>Strategic takeaways for product teams and stakeholders based on sentiment trajectory and consumer language analysis.</p>", unsafe_allow_html=True)
+
+    rec_data = [
+        {
+            "product": "Google Stadia",
+            "risk": "Low",
+            "risk_color": "#16a34a",
+            "headline": "Infrastructure-First Revival Viable",
+            "body": "Stadia failure was primarily logistical — latency, cost, and cloud infrastructure limitations — not conceptual. Consumer sentiment remained relatively stable, indicating residual brand goodwill. A cloud gaming re-entry with improved infrastructure is strategically viable."
+        },
+        {
+            "product": "Google Glass",
+            "risk": "High",
+            "risk_color": "#dc2626",
+            "headline": "Brand Rehabilitation Required Before Relaunch",
+            "body": "Glass carries severe reputational baggage: privacy concerns and social unacceptability. Despite innovation praise, product quality sentiment is deeply negative. A consumer-facing relaunch without a trust-rebuilding campaign would likely repeat prior failures."
+        },
+        {
+            "product": "Google+",
+            "risk": "High",
+            "risk_color": "#dc2626",
+            "headline": "Forced Adoption Strategy Destroyed Brand Equity",
+            "body": "The forced YouTube integration was the singular driver of consumer rejection. Any future social platform from Google must adopt an opt-in architecture. A rebuilt social layer with clear user consent and privacy positioning could succeed, but must distance itself from the Google+ brand."
+        }
+    ]
+
+    rec_cols = st.columns(3)
+    for i, rec in enumerate(rec_data):
+        with rec_cols[i]:
+            st.markdown(f"""
+            <div style="border: 1px solid #e5e7eb; border-top: 4px solid {rec['risk_color']}; border-radius: 6px; padding: 20px; background: #fff; height: 300px; overflow-y: auto;">
+                <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: {rec['risk_color']}; margin-bottom: 6px;">
+                    Risk Level: {rec['risk']}
+                </div>
+                <div style="font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 12px;">{rec['product']}</div>
+                <div style="font-size: 0.9rem; font-weight: 600; color: #374151; margin-bottom: 10px;">{rec['headline']}</div>
+                <div style="font-size: 0.85rem; color: #6b7280; line-height: 1.6;">{rec['body']}</div>
+            </div>
+            """, unsafe_allow_html=True)
+
+    st.markdown("<br><br>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="background: #111827; color: #f9fafb; border-radius: 6px; padding: 20px; font-size: 0.9rem; line-height: 1.7;">
+        <strong style="font-size: 1rem;">Key Takeaway:</strong> Google discontinuation pattern reveals a systemic failure mode —
+        products are abandoned at the infrastructure or adoption layer rather than due to poor conceptual innovation.
+        Stadia was technically constrained; Glass was socially rejected; Google+ was forcibly imposed.
+        Each failure was preventable. Future product strategy must prioritize <em>adoption architecture</em> over feature completeness.
+    </div>
+    """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()

@@ -5,12 +5,12 @@
 
 ## 1. Project Overview
 
-This project analyzes consumer sentiment from YouTube comments to support **data-driven product portfolio decisions** for Google's discontinued and at-risk product lines.
+This project analyzes consumer sentiment from YouTube comments to understand how public opinion shifted around the discontinuation of three Google products.
 
-The objective is to identify which product category can be discontinued while minimizing:
-- customer dissatisfaction
-- reputational risk
-- negative sentiment impact
+The objective is to identify sentiment patterns across:
+- pre- and post-discontinuation timeframes
+- reputational impact and backlash trends
+- shifts in consumer language and discussion focus
 
 The three products under analysis are:
 - **Google Glass**
@@ -21,10 +21,12 @@ The project integrates:
 - YouTube comment scraping
 - data cleaning
 - sentiment analysis (general + aspect-based)
-- statistical analysis
+- statistical analysis (Welch's t-test)
 - TF-IDF keyword analysis
 - keyword co-occurrence network analysis
 - dashboard visualization
+
+📑 See the [Wiki](../../wiki) for presentation slides and the final report.
 
 ---
 
@@ -37,7 +39,6 @@ group-2-web-analytics/
 ├── aspect_sentiment_analysis.ipynb               # Aspect-Based Sentiment Analysis (ABSA)
 ├── sentiment_analysis.ipynb                      # General sentiment analysis
 ├── statistical_analysis.ipynb                    # Statistical analysis of sentiment outputs
-├── Data_cleaning_script.ipynb                    # Data cleaning (Sony legacy)
 ├── data_cleaning_glass_plus.ipynb                # Data cleaning for Glass and Google+ datasets
 ├── tfidf_analysis.ipynb                          # TF-IDF keyword analysis
 ├── gephi_network_export.ipynb                    # Keyword co-occurrence network analysis
@@ -56,7 +57,11 @@ group-2-web-analytics/
 ├── tfidf_keywords.png                            # TF-IDF keyword visualization
 ├── gephi_nodes.csv                               # Network nodes (keywords + frequency)
 ├── gephi_edges.csv                               # Network edges (keyword co-occurrences)
+├── google_products_scrape.ipynb                  # YouTube comment scraping for all three products
 ├── wiki_analysis_report.md                       # Full analysis report (sentiment, TF-IDF, network, ABSA)
+├── Google_Web_Analytics_Presentation.pptx        # Final presentation (Google products)
+├── Sony_Web_Analytics_Presentation.pptx          # Reference presentation (Sony products)
+├── Web_Analytics_Final_report.docx               # Final written report
 ├── app.py                                        # Streamlit dashboard app
 ├── requirements.txt                              # Dependencies
 ├── .env.example                                  # Example environment variables
@@ -90,6 +95,18 @@ GEMINI_API_KEY=your_key_here
 ---
 
 ## 4. How to Run the Project
+
+### Step 0 — Data Collection
+
+Open and execute:
+
+```
+google_products_scrape.ipynb
+```
+
+This scrapes YouTube comments for Google Glass, Google+, and Google Stadia across old and recent timeframes and saves the raw CSV files.
+
+---
 
 ### Step 1 — Data Cleaning
 
@@ -149,7 +166,7 @@ Open and execute:
 statistical_analysis.ipynb
 ```
 
-This performs statistical comparison of sentiment distributions across the three products.
+This performs Welch's t-test to compare sentiment distributions before and after discontinuation across the three products.
 
 ---
 
@@ -198,11 +215,10 @@ streamlit run app.py
 - Sentiment classification of consumer reviews across three Google products
 - Product comparison based on aggregate sentiment scores
 - Aspect-based sentiment extraction (ABSA) using Gemini
-- Statistical analysis of sentiment distributions
+- Statistical analysis of sentiment distributions (Welch's t-test)
 - Consumer language and keyword analysis (TF-IDF)
 - Keyword co-occurrence network analysis (Gephi / NetworkX)
 - Backlash risk interpretation
-- Executive decision-support interface
 
 ---
 
@@ -211,13 +227,12 @@ streamlit run app.py
 - Raw comment datasets are split into **old** and **recent** files per product to enable temporal sentiment comparison.
 - ABSA requires a Gemini API key configured via `.env`.
 - The dashboard uses processed data and can be extended with additional inputs.
-- The UI is structured to support future integration with automated pipelines.
 
 ---
 
-## 7.Contribution History
+## 7. Contribution History
 
-Due to a force push on May 2, 2026, the commit history on the `main` branch does not reflect all team contributions. The full contribution history — including all commits made before that date — is preserved in the [`project-archive`](https://github.com/natebowden32-maker/group-2-web-analytics/tree/project-archive) branch.
+Individual contribution history is preserved in the **`project-archive`** branch. See that branch to review each team member's commits throughout the project lifecycle.
 
 ---
 

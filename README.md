@@ -27,6 +27,7 @@ The project integrates:
 - dashboard visualization
 
 📑 See the [Wiki](../../wiki) for presentation slides and the final report.
+All project milestones and the final report are available on the [Wiki](../../wiki).
 
 ---
 

@@ -215,7 +215,13 @@ streamlit run app.py
 
 ---
 
-## 7. Team
+## 7.Contribution History
+
+Due to a force push on May 2, 2026, the commit history on the `main` branch does not reflect all team contributions. The full contribution history — including all commits made before that date — is preserved in the [`project-archive`](https://github.com/natebowden32-maker/group-2-web-analytics/tree/project-archive) branch.
+
+---
+
+## 8. Team
 
 Group 2 – Web Analytics Course
 Fordham University

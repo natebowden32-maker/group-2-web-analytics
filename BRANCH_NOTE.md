@@ -1,12 +1,21 @@
-# 贡献历史存档 / Contribution History Archive
+# Project Archive — Contribution History
 
-此分支保存了团队完整的贡献历史记录。
+This branch preserves the complete commit history of the team **before a force push on May 2, 2026** replaced the main branch with a rewritten history, causing the following contributions to disappear from `main`.
 
-2026年5月2日，主仓库（main分支）经历了一次强制覆盖推送（force push），导致以下成员的提交记录从 main 分支消失：
+---
 
-- **Honglin Zhao**（hzhao74@fordham.edu）— TF-IDF分析、Gephi网络导出、ABSA情感分析、Wiki报告等
-- **Akulina Kashchei**（akashchei@fordham.edu）
-- **mishasundri**（missun03@gmail.com）
-- **Nathaniel Bowden**（natebowden32@gmail.com）
+## Why this branch exists
 
-本分支完整保留了 force push 之前的所有提交，可作为贡献证明。
+On May 2, 2026, the main repository received a force push from an alternate working copy, which overwrote the existing history. As a result, all commits made directly to the main repository prior to that date were erased from `main`. This branch restores that history as a reference.
+
+---
+
+## Contributions documented here
+
+### Honglin Zhao (hzhao74@fordham.edu)
+- Data collection (March 2026)
+- ABSA (Aspect-Based Sentiment Analysis) notebook and output files (April 30)
+- Wiki analysis report updates (April 30)
+- TF-IDF keyword analysis notebook and Gephi co-occurrence network export (May 1)
+- README documentation updates (May 1)
+- Cleaned up legacy Sony project files (May 1)
